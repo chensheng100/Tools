@@ -1,0 +1,7 @@
+identifying_code.py  #6位随机验证码函数 包含数字和大小写字母；
+
+paramiko.py          #创建一个SSH客户端程序，供远程访问服务器；
+
+number_class.py      #从队列中取出偶数和奇数分别放两个列表；
+
+ 
