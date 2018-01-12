@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+#coding:utf-8
+
 import socket 
 def handle_request(client):
     buf = client.recv(1024)
@@ -11,6 +14,8 @@ def main():
     
     while True:
         connection,address = sock.accept()
+        print "The new socket connection is: \n",connection
+        print "The visitor address is: \n",address
         handle_request(connection)
         connection.close()
         
